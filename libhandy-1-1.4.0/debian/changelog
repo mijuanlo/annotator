@@ -1,0 +1,317 @@
+libhandy-1 (1.4.0-0build1~ubuntu2004) focal; urgency=medium
+
+  * New upstream version
+
+ -- pandajim (key for lives deb) <ubuntuhandbook1@gmail.com>  Tue, 07 Sep 2021 10:53:13 +0200
+
+libhandy-1 (1.3.90-1) experimental; urgency=medium
+
+  * New upstream release candidate
+  * Upload to experimental
+  * d/libhandy-1-0.symbols: Add new public symbols
+  * d/gbp.conf: Switch to upsteam-vcs-tag based workflow
+  * d/gbp.conf: Filter .gitattributes out of upstream tarball.
+    It only causes grief during CI
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 03 Sep 2021 15:01:50 +0200
+
+libhandy-1 (1.2.3-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Mon, 23 Aug 2021 10:45:30 +0200
+
+libhandy-1 (1.2.2-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 21 Aug 2021 12:30:56 +0200
+
+libhandy-1 (1.2.2-1) experimental; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 27 Apr 2021 10:18:04 +0200
+
+libhandy-1 (1.2.0-1) experimental; urgency=medium
+
+  * New upstream version 1.2.0
+    Dropped .gitattributes on import to allow for CI builds
+  * Drop avatar-Ignore-deprecations-....patch - fixed upstream
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 23 Mar 2021 10:46:43 +0100
+
+libhandy-1 (1.1.90-2) experimental; urgency=medium
+
+  * Rediff patches
+  * avatar: Ignore deprecations in hdy_avatar_set_image_load_func()
+    Otherwise -Werror builds break due to libhandy itself.
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 23 Mar 2021 10:46:33 +0100
+
+libhandy-1 (1.1.90-1) experimental; urgency=medium
+
+  * Upload to experimental (Closes: #983525)
+  * New upstream version 1.1.90
+  * Drop backported patches
+  * Bump symbol versions
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 26 Feb 2021 09:29:10 +0100
+
+libhandy-1 (1.0.3-1) unstable; urgency=medium
+
+  * New upstream version 1.0.3
+
+ -- Arnaud Ferraris <arnaud.ferraris@gmail.com>  Sun, 27 Dec 2020 12:24:47 +0100
+
+libhandy-1 (1.0.2-1) unstable; urgency=medium
+
+  * New upstream version 1.0.2
+  * d/patches: drop upstreamed patch
+
+ -- Arnaud Ferraris <arnaud.ferraris@gmail.com>  Sat, 14 Nov 2020 12:39:56 +0100
+
+libhandy-1 (1.0.1-1) unstable; urgency=medium
+
+  * New upstream version 1.0.1
+  * d/patches: remove unneeded backported patches
+
+ -- Arnaud Ferraris <arnaud.ferraris@gmail.com>  Sat, 31 Oct 2020 12:22:19 +0100
+
+libhandy-1 (1.0.0-3) unstable; urgency=medium
+
+  [ Sebastian Krzyszkowiak ]
+  * Backport HdyCarousel fixes.
+    Upstream commits ddfd9b75e9db1fae9166debb13dc188f68d0f90e and
+    bdfb9a99e20b5a3139f9828beb95266188af271f.
+    See also https://gitlab.gnome.org/GNOME/libhandy/-/merge_requests/623
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 26 Oct 2020 09:51:31 +0100
+
+libhandy-1 (1.0.0-2) unstable; urgency=medium
+
+  * Rediff patches
+  * swipe-tracker: Special case dragging from buttons. Backport of upstream
+    commit 52eabe10f52a53794a90921baa78792f99c304a9.
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 26 Sep 2020 11:19:44 +0200
+
+libhandy-1 (1.0.0-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 09 Sep 2020 14:17:51 +0200
+
+libhandy-1 (0.90.0-1) unstable; urgency=medium
+
+  * New upstream version 0.90.0
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 11 Aug 2020 15:31:14 +0200
+
+libhandy-1 (0.85.0-1) unstable; urgency=medium
+
+  [ Guido Günther ]
+  * Add Arnaud to uploaders
+
+  [ Arnaud Ferraris ]
+  * New upstream release 0.85.0
+
+ -- Arnaud Ferraris <arnaud.ferraris@gmail.com>  Mon, 03 Aug 2020 12:56:10 +0200
+
+libhandy-1 (0.84.0-1) unstable; urgency=medium
+
+  [ Sebastien Bacher ]
+  * debian: Update autopkgtests.
+    This improves the autopkgtest to not use deprecated symbols,
+    do a runtime test and be more cross build friendly.
+    See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=946676
+
+  [ Guido Günther ]
+  * debian: Package API version 1
+  * d/control: Switch maintainer to team address
+  * debian: Fix source package name.
+    Like gtk4 and gtk3 we want libhandy-0 and libhandy-1 be different
+    source packages so they can exist in parallel.
+
+  [ Adrien Plazas ]
+  * debian: Remove 0.0 symbols.
+    We don't need them anymore.
+  * debian: Don't use hdy_init() in build test programs.
+    It has been dropped, use other functions instead.
+  * debian: Add missing symbols.
+    Add missing hdy_navigation_direction_get_type and
+    hdy_navigation_direction_get_type symbols.
+  * debian: Add missing symbols.
+    Add missing symbols for HdyDeck and HdyStackableBox.
+  * debian: Use HdyKeypad in the Python GI test.
+    This stops using string utility functions we drop in the next commit.
+  * debian: Drop handy-1-examples's dep on libhandy-0.0-0.
+    It of course needs libhandy-1-0, which is automatically added.
+    Fixes https://source.puri.sm/Librem5/libhandy/issues/261
+  * debian: Bump the 0.9.90 symbols to 0.80.0.
+    They will actually be introduced in the 0.80.0 tag.
+  * debian: Update the symbols
+  * debian: Fail if introduced symbols are not listed.
+    This will help us properly maintain the symbols file.
+  * debian: Fix some symbol versions
+  * debian: Add missing symbols
+
+  [ Alexander Mikhaylenko ]
+  * debian: Update Glade module soname.
+
+  [ Arnaud Ferraris ]
+  * d/libhandy-1-0: install locales
+  * debian: remove remaining libhandy-0.0 packaging files
+  * d/control: bump Standards-Version and debhelper-compat
+  * d/gbp.conf: align with other DebianOnMobile projects
+    In order to keep consistency with other projects maintained by the
+    DebianOnMobile team, use the same branch names and drop extra options.
+  * d/control: add Rules-Requires-Root
+  * d/control: change VCS URLs to libhandy-1 repo
+  * d/symbols: add Build-Depends field
+  * debian: add watch file
+  * remove .gitattributes and files it points to
+
+ -- Arnaud Ferraris <arnaud.ferraris@gmail.com>  Fri, 17 Jul 2020 15:23:33 +0200
+
+libhandy (0.0.13-2) unstable; urgency=medium
+
+  * [0fd724f] Disable atk during tests.
+    This fixes test problems on GNU Hurd.
+    Thanks to Samuel Thibault for investigating
+    (Closes: #953971)
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 25 Mar 2020 10:14:43 +0100
+
+libhandy (0.0.13-1) unstable; urgency=medium
+
+  [ Guido Günther ]
+  * New upstream version 0.0.13
+
+  [ Sebastien Bacher ]
+  * [4c770b6] Update the build test to closer from other GNOME ones.
+    Fix some issues/the current test failing
+      - don't use a deprecated function
+      - handle cross build autopkgtest environment
+      - include a runtime test as well (Closes: #946676)
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 27 Dec 2019 12:22:18 +0100
+
+libhandy (0.0.12-1) unstable; urgency=medium
+
+  * New upstream version 0.0.12
+
+ -- Guido Günther <agx@sigxcpu.org>  Thu, 12 Dec 2019 09:49:04 +0100
+
+libhandy (0.0.11-1) unstable; urgency=medium
+
+  * New upstream version 0.0.11
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 07 Sep 2019 01:11:28 -0700
+
+libhandy (0.0.10-1) unstable; urgency=medium
+
+  * New upstream version 0.0.10
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 18 Jun 2019 15:04:53 +0200
+
+libhandy (0.0.9-1) unstable; urgency=medium
+
+  * New upstream version 0.0.9 (Closes: #924754)
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 18 Mar 2019 13:27:03 +0100
+
+libhandy (0.0.8-1) unstable; urgency=medium
+
+  [Guido Günther]
+  * New upstream version 0.0.7
+
+  [ Jeremy Bicha ]
+  * [935807c] Build-Depend on debhelper-compat 12 and drop debian/compat
+    debhelper compat 12 uses dh_makeshlibs -VUpstream-Version by default
+  * [39272b8] Build-Depend on dh-sequence-gir
+    dh-sequence-gir is a virtual package provided by gobject-introspection.
+    debhelper 12 automatically enables the gir helper when this is
+    part of Build-Depends.
+    https://manpages.debian.org/unstable/dh#OPTIONS
+  * [e3cb678] Drop gir1.2-handy-0.0's unused dependency on ${shlibs:Depends}
+  * [20ef4cd] Build-Depend on libglib2.0-doc & libgtk-3-doc to fix doc build
+    warnings
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 15 Feb 2019 11:27:35 +0100
+
+libhandy (0.0.7-1) unstable; urgency=medium
+
+  * New upstream version 0.0.7
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 21 Jan 2019 18:50:45 +0100
+
+libhandy (0.0.6-1) unstable; urgency=medium
+
+  * New upstream version 0.0.6
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 17 Dec 2018 17:09:36 +0100
+
+libhandy (0.0.5-2) unstable; urgency=medium
+
+  [ Jeremy Bicha ]
+  * [8eb01dc] Add Vcs fields
+
+  [ Guido Günther ]
+  * Upload to unstable
+  * [9964c77] Add gitlab-ci.
+    Thanks salsa-ci-team
+  * [37c5b11] hdy-enums: Make build reproducible
+  * [29187af] Add Build-Depends-Package to symbols file.
+    This ensures generated dependencies are at least as strong as the used
+    build-dep.
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 27 Nov 2018 12:00:56 +0100
+
+libhandy (0.0.5-1) experimental; urgency=medium
+
+  * New upstream version
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 12 Nov 2018 08:51:01 +0100
+
+libhandy (0.0.4-2) unstable; urgency=medium
+
+  [ Guido Günther ]
+  * [9651d62] meson: Properly depend on the generated headers
+    Fixes FTBFS.
+  * [c48897d] d/control: Mark buil-deps for tests as <!nocheck>
+
+  [ Jeremy Bicha ]
+  * [84d9e5c] Have libhandy-0.0-dev depend on libgtk-3-dev (Closes: #910384)
+  * [b3ea207] Use dh --with gir
+  * [3a82073] Simplify debian/rules
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 06 Oct 2018 14:25:32 +0200
+
+libhandy (0.0.4-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 05 Oct 2018 19:27:24 +0200
+
+libhandy (0.0.3-1) unstable; urgency=medium
+
+  * Upload to unstable
+  * New upstream version
+    - New widget HdyTitleBar
+    - Lots of fixes
+  * Update symbols file
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 18 Sep 2018 09:41:38 +0200
+
+libhandy (0.0.2-1) experimental; urgency=medium
+
+  * New upstream version
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 09 Sep 2018 18:08:59 +0200
+
+libhandy (0.0.1-1) experimental; urgency=medium
+
+  * Initial upload to experimental (Closes: #901509)
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 09 Jun 2018 09:12:06 +0200

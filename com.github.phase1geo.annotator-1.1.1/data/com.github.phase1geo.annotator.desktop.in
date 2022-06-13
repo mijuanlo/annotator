@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Annotator
+GenericName=Annotator
+Comment=Communicate with images better
+Categories=Utility;Graphics;
+Exec=com.github.phase1geo.annotator %f
+Icon=com.github.phase1geo.annotator
+Terminal=false
+Type=Application
+MimeType=image/bmp;image/gif;image/png;image/jpeg;image/svg+xml;image/tiff;image/wmf;image/xbm;image/xpm;image/x-icns;image/x-quicktime;image/x-tga;
+X-GNOME-Gettext-Domain=Annotator
+X-GNOME-UsesNotifications=true
+Keywords=annotator;image;annotate;
+Actions=EditClipboard;
+
+[Desktop Action EditClipboard]
+Name=Edit Clipboard Image
+Exec=com.github.phase1geo.annotator --use-clipboard

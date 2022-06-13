@@ -6,3 +6,4 @@ git checkout vala
 gbp buildpackage --git-export-dir=../build-area -us -uc --git-upstream-tree=vala --git-debian-branch=vala --git-pristine-tar-commit
 git checkout annotator
 gbp buildpackage --git-export-dir=../build-area -us -uc --git-upstream-tree=annotator --git-debian-branch=annotator --git-pristine-tar-commit
+git checkout master

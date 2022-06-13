@@ -1,0 +1,428 @@
+# Russian translation for granite
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the granite package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: granite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-08 22:02+0000\n"
+"PO-Revision-Date: 2018-09-20 00:04+0000\n"
+"Last-Translator: Kirill Romanov <djaler1@gmail.com>\n"
+"Language-Team: Russian <https://weblate.elementary.io/projects/desktop/"
+"granite/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0.1\n"
+"X-Launchpad-Export-Date: 2017-03-07 05:44+0000\n"
+
+#: lib/Application.vala:183
+msgid "Show Granite Options"
+msgstr "Показать параметры Granite"
+
+#: lib/Application.vala:237
+#, c-format
+msgid "%s's Developers"
+msgstr "Разработчики приложения «%s»"
+
+#: lib/Application.vala:255
+msgid "Website"
+msgstr "Веб-сайт"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (12h format) with seconds
+#: lib/DateTime.vala:42
+#, fuzzy
+msgid "%-l:%M:%S %p"
+msgstr "%l:%M:%S %p"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (12h format)
+#: lib/DateTime.vala:45
+#, fuzzy
+msgid "%-l:%M %p"
+msgstr "%l:%M %p"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (24h format) with seconds
+#: lib/DateTime.vala:50
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (24h format)
+#: lib/DateTime.vala:53
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: lib/DateTime.vala:73
+msgid "Now"
+msgstr "Сейчас"
+
+#: lib/DateTime.vala:76
+#, c-format
+msgid "%dm ago"
+msgid_plural "%dm ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lib/DateTime.vala:79
+#, c-format
+msgid "%dh ago"
+msgid_plural "%dh ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lib/DateTime.vala:85
+#, c-format
+msgid "in %dm"
+msgid_plural "in %dm"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lib/DateTime.vala:88
+#, c-format
+msgid "in %dh"
+msgid_plural "in %dh"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lib/DateTime.vala:94
+msgid "Yesterday"
+msgstr "Вчера"
+
+#: lib/DateTime.vala:96
+msgid "Tomorrow"
+msgstr "Завтра"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday, date, and year
+#: lib/DateTime.vala:148
+msgid "%a, %b %e, %Y"
+msgstr "%a %e %b %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the date and year
+#: lib/DateTime.vala:151
+msgid "%b %e %Y"
+msgstr "%b %e %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the year
+#: lib/DateTime.vala:154
+msgid "%Y"
+msgstr "%Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the date
+#: lib/DateTime.vala:157
+msgid "%b %e"
+msgstr "%b %e"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday and year.
+#: lib/DateTime.vala:160
+msgid "%a %Y"
+msgstr "%a %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday
+#: lib/DateTime.vala:163
+#, c-format
+msgid "%a"
+msgstr "%a"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday and date
+#: lib/DateTime.vala:166
+msgid "%a, %b %e"
+msgstr "%a %e %b"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the month.
+#: lib/DateTime.vala:169
+msgid "%b"
+msgstr "%b"
+
+#: lib/GtkPatch/AboutDialog.vala:36
+msgid "Designed by:"
+msgstr "Дизайн:"
+
+#: lib/GtkPatch/AboutDialog.vala:60
+msgid "Written by:"
+msgstr "Разработка:"
+
+#: lib/GtkPatch/AboutDialog.vala:137
+msgid "Documented by:"
+msgstr "Документация:"
+
+#: lib/GtkPatch/AboutDialog.vala:202
+#, c-format
+msgid "Translated by %s"
+msgstr "Переведено %s"
+
+#: lib/GtkPatch/AboutDialog.vala:333
+msgid "Close"
+msgstr "Закрыть"
+
+#: lib/GtkPatch/AboutDialog.vala:446
+#, c-format
+msgid ""
+"This program is published under the terms of the %s license, it comes with "
+"ABSOLUTELY NO WARRANTY; for details, visit %s"
+msgstr ""
+"Эта программа опубликована в соответствии с условиями лицензии %s и "
+"предоставляется без каких-либо гарантий. Для получения подробной информации "
+"посетите %s"
+
+#: lib/Widgets/AboutDialog.vala:80
+msgid "Suggest Translations"
+msgstr "Предложить перевод"
+
+#: lib/Widgets/AboutDialog.vala:82
+msgid "Report a Problem"
+msgstr "Сообщить об ошибке"
+
+#: lib/Widgets/AppMenu.vala:66
+msgid "Menu"
+msgstr "Меню"
+
+#: lib/Widgets/AppMenu.vala:76
+msgid "About"
+msgstr "О программе"
+
+#: lib/Widgets/DynamicNotebook.vala:257 lib/Widgets/DynamicNotebook.vala:281
+msgid "Close Tab"
+msgstr "Закрыть вкладку"
+
+#: lib/Widgets/DynamicNotebook.vala:285
+msgid "Open in a New Window"
+msgstr "Открыть в новом окне"
+
+#: lib/Widgets/DynamicNotebook.vala:286
+msgid "Duplicate"
+msgstr "Создать копию"
+
+#: lib/Widgets/DynamicNotebook.vala:328
+msgid "Close Other Tab"
+msgstr "Закрыть другую вкладку"
+
+#: lib/Widgets/DynamicNotebook.vala:328
+msgid "Close Other Tabs"
+msgstr "Закрыть другие вкладки"
+
+#. / TRANSLATORS: This will close tabs to the left in right-to-left environments
+#: lib/Widgets/DynamicNotebook.vala:332
+msgid "Close Tab to the Right"
+msgstr ""
+
+#: lib/Widgets/DynamicNotebook.vala:333
+msgid "Close Tabs to the Right"
+msgstr ""
+
+#: lib/Widgets/DynamicNotebook.vala:517
+msgid "Clear All"
+msgstr "Очистить всё"
+
+#: lib/Widgets/DynamicNotebook.vala:795 lib/Widgets/DynamicNotebook.vala:826
+msgid "New Tab"
+msgstr "Новая вкладка"
+
+#: lib/Widgets/DynamicNotebook.vala:796
+msgid "Undo Close Tab"
+msgstr "Восстановить закрытую вкладку"
+
+#: lib/Widgets/DynamicNotebook.vala:836
+msgid "Closed Tabs"
+msgstr "Закрытые вкладки"
+
+#: lib/Widgets/MessageDialog.vala:139
+msgid "_Close"
+msgstr "Закрыть"
+
+#: lib/Widgets/MessageDialog.vala:142
+msgid "_Cancel"
+msgstr "Отмена"
+
+#: lib/Widgets/MessageDialog.vala:348
+msgid "Details"
+msgstr ""
+
+#: lib/Widgets/StorageBar.vala:82
+msgid "Audio"
+msgstr "Аудиозаписи"
+
+#. / TRANSLATORS: Refers to videos the mime type. Not Videos the app.
+#: lib/Widgets/StorageBar.vala:85
+msgid "Videos"
+msgstr "Видеозаписи"
+
+#. / TRANSLATORS: Refers to photos the mime type. Not Photos the app.
+#: lib/Widgets/StorageBar.vala:88
+msgid "Photos"
+msgstr "Фотографии"
+
+#: lib/Widgets/StorageBar.vala:90
+msgid "Apps"
+msgstr "Приложения"
+
+#. / TRANSLATORS: Refers to files the mime type. Not Files the app.
+#: lib/Widgets/StorageBar.vala:93
+msgid "Files"
+msgstr "Файлы"
+
+#: lib/Widgets/StorageBar.vala:95
+msgid "Other"
+msgstr "Другие"
+
+#: lib/Widgets/StorageBar.vala:267
+#, c-format
+msgid "%s free out of %s"
+msgstr "%s свободно из %s"
+
+#. / TRANSLATORS: this will only show up when 12-hours clock is in use
+#: lib/Widgets/TimePicker.vala:106
+msgid "AM"
+msgstr "AM"
+
+#. / TRANSLATORS: this will only show up when 12-hours clock is in use
+#: lib/Widgets/TimePicker.vala:108
+msgid "PM"
+msgstr "PM"
+
+#. / TRANSLATORS: separates hours from minutes.
+#: lib/Widgets/TimePicker.vala:153
+msgid ":"
+msgstr ":"
+
+#: lib/Widgets/Utils.vala:102
+msgid "Shift"
+msgstr ""
+
+#: lib/Widgets/Utils.vala:106
+msgid "Ctrl"
+msgstr ""
+
+#: lib/Widgets/Utils.vala:110
+msgid "Alt"
+msgstr ""
+
+#. /TRANSLATORS: The Alt key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:128
+msgid "Left Alt"
+msgstr ""
+
+#. /TRANSLATORS: The Alt key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:132
+msgid "Right Alt"
+msgstr ""
+
+#. /TRANSLATORS: This is a non-symbol representation of the "-" key
+#: lib/Widgets/Utils.vala:137
+msgid "Minus"
+msgstr ""
+
+#. /TRANSLATORS: This is a non-symbol representation of the "+" key
+#: lib/Widgets/Utils.vala:142
+msgid "Plus"
+msgstr ""
+
+#. /TRANSLATORS: This is a non-symbol representation of the "=" key
+#: lib/Widgets/Utils.vala:147
+msgid "Equals"
+msgstr ""
+
+#: lib/Widgets/Utils.vala:150
+msgid "Enter"
+msgstr ""
+
+#. /TRANSLATORS: The Shift key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:154
+msgid "Left Shift"
+msgstr ""
+
+#. /TRANSLATORS: The Shift key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:158
+msgid "Right Shift"
+msgstr ""
+
+#. /TRANSLATORS: This is a delimiter that separates two keyboard shortcut labels like "⌘ + →, Control + A"
+#: lib/Widgets/Utils.vala:204
+msgid ", "
+msgstr ""
+
+#~ msgid "© %s"
+#~ msgstr "© %s"
+
+#~ msgid "This program is published under the terms of the "
+#~ msgstr "Эта программа опубликована в соответствии с условиями "
+
+#~ msgid " license, it comes with ABSOLUTELY NO WARRANTY; for details, visit "
+#~ msgstr ""
+#~ " лицензии и предоставляется без каких-либо гарантий. Для получения "
+#~ "подробной информации посетите "
+
+#~ msgid "Developers"
+#~ msgstr "Разработчики"
+
+#~ msgid "Open in a new Window"
+#~ msgstr "Открыть в новом окне"
+
+#~ msgid "Could not contact Contractor. You may need to install it"
+#~ msgstr "Не удалось соединиться с Contractor. Возможно, его нужно установить"
+
+#~ msgid "No action found for this file"
+#~ msgstr "Для этого файла нет сохранённых действий"
+
+#~ msgid "%a %b %e %Y"
+#~ msgstr "%a %b %e %Y"
+
+#~ msgid "%a %b %e"
+#~ msgstr "%a %b %e"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Adam https://launchpad.net/~l2velial\n"
+#~ "  Artem Anufrij https://launchpad.net/~artem-anufrij\n"
+#~ "  Corpsee https://launchpad.net/~poisoncorpsee\n"
+#~ "  Kirill Ivaha https://launchpad.net/~kirill-ivaha\n"
+#~ "  Kirill Romanov https://launchpad.net/~djaler1\n"
+#~ "  Lapeev Konstantin https://launchpad.net/~coder1c\n"
+#~ "  Maxim Taranov https://launchpad.net/~png2378\n"
+#~ "  Mukusev Vladimir https://launchpad.net/~damon95\n"
+#~ "  Nikita Putko https://launchpad.net/~ktototam98\n"
+#~ "  Ofen https://launchpad.net/~pe4ka911\n"
+#~ "  Pasha. P. Komar https://launchpad.net/~cellachain\n"
+#~ "  Qwiz https://launchpad.net/~qwiz\n"
+#~ "  Sergey Kislyakov https://launchpad.net/~defman21\n"
+#~ "  Victor Makarov https://launchpad.net/~viktis\n"
+#~ "  Yury https://launchpad.net/~kuryzko-yn\n"
+#~ "  mefetran https://launchpad.net/~mefetran\n"
+#~ "  slav https://launchpad.net/~slav464\n"
+#~ "  zEvilz https://launchpad.net/~zevilz13\n"
+#~ "  михаил https://launchpad.net/~ded-mixei"
+
+#~ msgid "Toasts"
+#~ msgstr "Тосты"
+
+#~ msgid "Simple in-app notifications"
+#~ msgstr "Простые встроенные оповещения"
+
+#~ msgid "Button was pressed!"
+#~ msgstr "Кнопка была нажата!"
+
+#~ msgid "Do Things"
+#~ msgstr "Делать что-то"
+
+#~ msgid "Press Me"
+#~ msgstr "Нажми меня"
+
+#~ msgid "Did The Thing"
+#~ msgstr "Что-то сделано"
+
+#~ msgid "Already did the thing"
+#~ msgstr "Уже что-то сделано"
+
+#~ msgid "Enabled"
+#~ msgstr "Включено"
+
+#~ msgid "Disabled"
+#~ msgstr "Выключено"

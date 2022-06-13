@@ -1,0 +1,414 @@
+# Hebrew translation for granite
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the granite package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: granite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-08 22:02+0000\n"
+"PO-Revision-Date: 2019-10-27 10:23+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/granite/"
+"he/>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Weblate 3.7.1\n"
+"X-Launchpad-Export-Date: 2017-03-07 05:44+0000\n"
+
+#: lib/Application.vala:183
+msgid "Show Granite Options"
+msgstr "הצגת האפשרויות של גרניט"
+
+#: lib/Application.vala:237
+#, c-format
+msgid "%s's Developers"
+msgstr "מפתחי %s"
+
+#: lib/Application.vala:255
+msgid "Website"
+msgstr "אתר אינטרנט"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (12h format) with seconds
+#: lib/DateTime.vala:42
+msgid "%-l:%M:%S %p"
+msgstr "%-l:%M:%S %p"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (12h format)
+#: lib/DateTime.vala:45
+msgid "%-l:%M %p"
+msgstr "%-l:%M %p"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (24h format) with seconds
+#: lib/DateTime.vala:50
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (24h format)
+#: lib/DateTime.vala:53
+msgid "%H:%M"
+msgstr "%H∶%M"
+
+#: lib/DateTime.vala:73
+msgid "Now"
+msgstr "עכשיו"
+
+#: lib/DateTime.vala:76
+#, c-format
+msgid "%dm ago"
+msgid_plural "%dm ago"
+msgstr[0] "לפני דקה"
+msgstr[1] "לפני 2 דקות"
+msgstr[2] "לפני %d דקות"
+msgstr[3] "לפני %d דקות"
+
+#: lib/DateTime.vala:79
+#, c-format
+msgid "%dh ago"
+msgid_plural "%dh ago"
+msgstr[0] "לפני שעה"
+msgstr[1] "לפני שעתיים"
+msgstr[2] "לפני %d שעות"
+msgstr[3] "לפני %d שעות"
+
+#: lib/DateTime.vala:85
+#, c-format
+msgid "in %dm"
+msgid_plural "in %dm"
+msgstr[0] "בעוד דקה"
+msgstr[1] "בעוד 2 דקות"
+msgstr[2] "בעוד %d דקות"
+msgstr[3] "בעוד %d דקות"
+
+#: lib/DateTime.vala:88
+#, c-format
+msgid "in %dh"
+msgid_plural "in %dh"
+msgstr[0] "בעוד שעה"
+msgstr[1] "בעוד שעתיים"
+msgstr[2] "בעוד %d שעות"
+msgstr[3] "בעוד %d שעות"
+
+#: lib/DateTime.vala:94
+msgid "Yesterday"
+msgstr "אתמול"
+
+#: lib/DateTime.vala:96
+msgid "Tomorrow"
+msgstr "מחר"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday, date, and year
+#: lib/DateTime.vala:148
+msgid "%a, %b %e, %Y"
+msgstr "%a, ‏%e ב%b‏ %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the date and year
+#: lib/DateTime.vala:151
+msgid "%b %e %Y"
+msgstr "ה־%e ב%b %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the year
+#: lib/DateTime.vala:154
+msgid "%Y"
+msgstr "%Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the date
+#: lib/DateTime.vala:157
+msgid "%b %e"
+msgstr "ה־%e ב%b"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday and year.
+#: lib/DateTime.vala:160
+msgid "%a %Y"
+msgstr "%a %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday
+#: lib/DateTime.vala:163
+#, c-format
+msgid "%a"
+msgstr "%a"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday and date
+#: lib/DateTime.vala:166
+msgid "%a, %b %e"
+msgstr "%a, ‏%e ב%b"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the month.
+#: lib/DateTime.vala:169
+msgid "%b"
+msgstr "%b"
+
+#: lib/GtkPatch/AboutDialog.vala:36
+msgid "Designed by:"
+msgstr "עוצב על ידי:"
+
+#: lib/GtkPatch/AboutDialog.vala:60
+msgid "Written by:"
+msgstr "נכתב על ידי:"
+
+#: lib/GtkPatch/AboutDialog.vala:137
+msgid "Documented by:"
+msgstr "תועד על ידי:"
+
+#: lib/GtkPatch/AboutDialog.vala:202
+#, c-format
+msgid "Translated by %s"
+msgstr "תורגם על ידי  %s"
+
+#: lib/GtkPatch/AboutDialog.vala:333
+msgid "Close"
+msgstr "סגירה"
+
+#: lib/GtkPatch/AboutDialog.vala:446
+#, c-format
+msgid ""
+"This program is published under the terms of the %s license, it comes with "
+"ABSOLUTELY NO WARRANTY; for details, visit %s"
+msgstr ""
+"תכנית זו זמינה תחת תנאי הרישיון %s, התכנית מופצת ללא שום אחריות; לפרטים, יש "
+"לבקר בכתובת %s"
+
+#: lib/Widgets/AboutDialog.vala:80
+msgid "Suggest Translations"
+msgstr "הצעת תרגום"
+
+#: lib/Widgets/AboutDialog.vala:82
+msgid "Report a Problem"
+msgstr "דיווח על בעיה"
+
+#: lib/Widgets/AppMenu.vala:66
+msgid "Menu"
+msgstr "תפריט"
+
+#: lib/Widgets/AppMenu.vala:76
+msgid "About"
+msgstr "על אודות"
+
+#: lib/Widgets/DynamicNotebook.vala:257 lib/Widgets/DynamicNotebook.vala:281
+msgid "Close Tab"
+msgstr "סגירת לשונית"
+
+#: lib/Widgets/DynamicNotebook.vala:285
+msgid "Open in a New Window"
+msgstr "פתיחה בחלון חדש"
+
+#: lib/Widgets/DynamicNotebook.vala:286
+msgid "Duplicate"
+msgstr "שכפול"
+
+#: lib/Widgets/DynamicNotebook.vala:328
+msgid "Close Other Tab"
+msgstr "סגירת לשונית אחרת"
+
+#: lib/Widgets/DynamicNotebook.vala:328
+msgid "Close Other Tabs"
+msgstr "סגירת לשוניות אחרות"
+
+#. / TRANSLATORS: This will close tabs to the left in right-to-left environments
+#: lib/Widgets/DynamicNotebook.vala:332
+msgid "Close Tab to the Right"
+msgstr "סגירת הלשונית משמאל"
+
+#: lib/Widgets/DynamicNotebook.vala:333
+msgid "Close Tabs to the Right"
+msgstr "סגירת הלשונית משמאל"
+
+#: lib/Widgets/DynamicNotebook.vala:517
+msgid "Clear All"
+msgstr "ניקוי הכול"
+
+#: lib/Widgets/DynamicNotebook.vala:795 lib/Widgets/DynamicNotebook.vala:826
+msgid "New Tab"
+msgstr "לשונית חדשה"
+
+#: lib/Widgets/DynamicNotebook.vala:796
+msgid "Undo Close Tab"
+msgstr "ביטול סגירת לשונית"
+
+#: lib/Widgets/DynamicNotebook.vala:836
+msgid "Closed Tabs"
+msgstr "לשוניות שנסגרו"
+
+#: lib/Widgets/MessageDialog.vala:139
+msgid "_Close"
+msgstr "_סגירה"
+
+#: lib/Widgets/MessageDialog.vala:142
+msgid "_Cancel"
+msgstr "_ביטול"
+
+#: lib/Widgets/MessageDialog.vala:348
+msgid "Details"
+msgstr "פרטים"
+
+#: lib/Widgets/StorageBar.vala:82
+msgid "Audio"
+msgstr "שמע"
+
+#. / TRANSLATORS: Refers to videos the mime type. Not Videos the app.
+#: lib/Widgets/StorageBar.vala:85
+msgid "Videos"
+msgstr "סרטונים"
+
+#. / TRANSLATORS: Refers to photos the mime type. Not Photos the app.
+#: lib/Widgets/StorageBar.vala:88
+msgid "Photos"
+msgstr "תמונות"
+
+#: lib/Widgets/StorageBar.vala:90
+msgid "Apps"
+msgstr "יישומים"
+
+#. / TRANSLATORS: Refers to files the mime type. Not Files the app.
+#: lib/Widgets/StorageBar.vala:93
+msgid "Files"
+msgstr "קבצים"
+
+#: lib/Widgets/StorageBar.vala:95
+msgid "Other"
+msgstr "אחר"
+
+#: lib/Widgets/StorageBar.vala:267
+#, c-format
+msgid "%s free out of %s"
+msgstr "%s פנויים מתוך %s"
+
+#. / TRANSLATORS: this will only show up when 12-hours clock is in use
+#: lib/Widgets/TimePicker.vala:106
+msgid "AM"
+msgstr "לפנה״צ"
+
+#. / TRANSLATORS: this will only show up when 12-hours clock is in use
+#: lib/Widgets/TimePicker.vala:108
+msgid "PM"
+msgstr "אחה״צ"
+
+#. / TRANSLATORS: separates hours from minutes.
+#: lib/Widgets/TimePicker.vala:153
+msgid ":"
+msgstr ":"
+
+#: lib/Widgets/Utils.vala:102
+msgid "Shift"
+msgstr "Shift"
+
+#: lib/Widgets/Utils.vala:106
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: lib/Widgets/Utils.vala:110
+msgid "Alt"
+msgstr "Alt"
+
+#. /TRANSLATORS: The Alt key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:128
+msgid "Left Alt"
+msgstr "Alt שמאלי"
+
+#. /TRANSLATORS: The Alt key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:132
+msgid "Right Alt"
+msgstr "Alt ימני"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "-" key
+#: lib/Widgets/Utils.vala:137
+msgid "Minus"
+msgstr "מינוס"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "+" key
+#: lib/Widgets/Utils.vala:142
+msgid "Plus"
+msgstr "פלוס"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "=" key
+#: lib/Widgets/Utils.vala:147
+msgid "Equals"
+msgstr "שווה"
+
+#: lib/Widgets/Utils.vala:150
+msgid "Enter"
+msgstr "Enter"
+
+#. /TRANSLATORS: The Shift key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:154
+msgid "Left Shift"
+msgstr "Shift שמאלי"
+
+#. /TRANSLATORS: The Shift key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:158
+msgid "Right Shift"
+msgstr "Shift ימני"
+
+#. /TRANSLATORS: This is a delimiter that separates two keyboard shortcut labels like "⌘ + →, Control + A"
+#: lib/Widgets/Utils.vala:204
+msgid ", "
+msgstr ", "
+
+#~ msgid "© %s"
+#~ msgstr "© %s"
+
+#~ msgid "This program is published under the terms of the "
+#~ msgstr "תכנה זו יצאה לאור בהתאם לתנאי השימוש של "
+
+#~ msgid " license, it comes with ABSOLUTELY NO WARRANTY; for details, visit "
+#~ msgstr " , התכנית מופצת ללא אחריות. לפרטים, ניתן לבקר בכתובת "
+
+#~ msgid "Developers"
+#~ msgstr "מפתחים"
+
+#~ msgid "Open in a new Window"
+#~ msgstr "פתיחה בחלון חדש"
+
+#~ msgid "Could not contact Contractor. You may need to install it"
+#~ msgstr "לא ניתן ליצור קשר עם Contractor. כנראה יש להתקינו"
+
+#~ msgid "No action found for this file"
+#~ msgstr "לא נמצאה פעולה לקובץ זה"
+
+#~ msgid "%a %b %e %Y"
+#~ msgstr "%a ה־%e ב%b %Y"
+
+#~ msgid "%a %b %e"
+#~ msgstr "%a ה־%e ב%b"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Danny Damsky https://launchpad.net/~dannydamsky99\n"
+#~ "  Dor https://launchpad.net/~dor-gallego\n"
+#~ "  Niv Baehr https://launchpad.net/~rzil\n"
+#~ "  Roee https://launchpad.net/~pheheh\n"
+#~ "  Uri Damsker  אורי דמסקר https://launchpad.net/~ud1955\n"
+#~ "Yaron Shahrabani <sh.yaron@gmail.com>"
+
+#~ msgid "Toasts"
+#~ msgstr "צנימים"
+
+#~ msgid "Simple in-app notifications"
+#~ msgstr "התראות פשוטות בתוך היישום"
+
+#~ msgid "Button was pressed!"
+#~ msgstr "נלחץ כפתור!"
+
+#~ msgid "Do Things"
+#~ msgstr "לעשות דברים"
+
+#~ msgid "Press Me"
+#~ msgstr "נא ללחוץ עלי"
+
+#~ msgid "Did The Thing"
+#~ msgstr "משהו בוצע"
+
+#~ msgid "Already did the thing"
+#~ msgstr "הדבר כבר נעשה"
+
+#~ msgid "Enabled"
+#~ msgstr "פעיל"
+
+#~ msgid "Disabled"
+#~ msgstr "מושבת"

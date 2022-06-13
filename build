@@ -1,12 +1,8 @@
-cd granite-5.5.0
+git checkout granite
 gbp buildpackage --git-export-dir=../build-area -us -uc --git-upstream-tree=granite --git-debian-branch=granite --git-pristine-tar-commit
-cd ..
-cd libhandy-1-1.4.0
+git checkout handy
 gbp buildpackage --git-export-dir=../build-area -us -uc --git-upstream-tree=handy --git-debian-branch=handy --git-pristine-tar-commit
-cd ..
-cd vala-0.48.19
+git checkout vala
 gbp buildpackage --git-export-dir=../build-area -us -uc --git-upstream-tree=vala --git-debian-branch=vala --git-pristine-tar-commit
-cd ..
-cd com.github.phase1geo.annotator-1.1.1
+git checkout annotator
 gbp buildpackage --git-export-dir=../build-area -us -uc --git-upstream-tree=annotator --git-debian-branch=annotator --git-pristine-tar-commit
-cd ..
